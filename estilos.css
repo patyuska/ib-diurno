@@ -6,7 +6,7 @@ etiqueta{}
 #id{    
 }*/
 
-body {
+.body {
     background: #efeeee;
     padding: 0;
     margin: 0;
@@ -21,14 +21,46 @@ body {
 
 }
 
-a{
+a {
     /* border: 1px solid red; */
     color: #595858;
     text-decoration: none;
     padding: 0.5rem;
 }
 
-a:hover{
+a:hover {
     color: rgb(17, 143, 143);
     background: #afaeae;
+}
+
+.Cuerpo {
+    border: 1px solid blue;
+
+}
+
+#perfil {
+    border: 1px solid red;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+img {
+    border: 1px solid green;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background: blue;
+
+}
+
+span {
+    border: 1px solid green;
+    /* padding:  10px; */
+    /* padding; 5px 40 px; */
+    padding: 7px 15px;
+
+
+
 }
