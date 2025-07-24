@@ -10,6 +10,11 @@ etiqueta{}
     background: #efeeee;
     padding: 0;
     margin: 0;
+
+    /* limkitar el tamaño */
+    width: 400px;
+    /*centrado de contenido automatico */
+    margin: auto;
 }
 
 
@@ -55,12 +60,39 @@ img {
 
 }
 
-span {
-    border: 1px solid green;
+#prefil span {
+    border: px solid green;
     /* padding:  10px; */
     /* padding; 5px 40 px; */
     padding: 7px 15px;
+    /* padding; 5px 15px 40px 100px */
 
 
+    border-radius: 1.5rem;
+    background: #adecad;
+    color: green;
+    margin-left: 15px;
 
+}
+
+p span {
+    color: #ffd000;
+
+}
+
+.Cuerpo {
+    margin-top: 70px;
+
+
+}
+
+button {
+    padding: 5px;
+    border-radius: 1rem;
+    border-color: rgb(198, 196, 196);
+}
+
+button:hover {
+    background: black;
+    color: wheat;
 }
