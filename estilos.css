@@ -7,9 +7,10 @@ etiqueta{}
 }*/
 
 .body {
-    background: #efeeee;
-    padding: 0;
-    margin: 0;
+    background:#efeeee;
+    width:700;
+    padding:0;
+    margin:auto;
 
     /* limkitar el tamaño */
     width: 400px;
@@ -17,13 +18,11 @@ etiqueta{}
     margin: auto;
 }
 
-
 .cabecera {
     /* border: 2px solid blue; */
     display: flex;
     gap: 5px;
     /* justify-content: space-between; */
-
 }
 
 a {
@@ -40,50 +39,43 @@ a:hover {
 
 .Cuerpo {
     border: 1px solid blue;
-
 }
 
 #perfil {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     display: flex;
     flex-direction: row;
     align-items: center;
-
+    /* justify-content: center; */
 }
 
 img {
-    border: 1px solid green;
+    /* border: 1px solid green; */
     width: 90px;
     height: 90px;
-    border-radius: 50%;
     background: blue;
-
+    border-radius: 50%;
+    margin-right: 10px;
 }
 
-#prefil span {
-    border: px solid green;
+ span {
+    border: 2px solid green;
     /* padding:  10px; */
-    /* padding; 5px 40 px; */
     padding: 7px 15px;
     /* padding; 5px 15px 40px 100px */
-
 
     border-radius: 1.5rem;
     background: #adecad;
     color: green;
     margin-left: 15px;
-
 }
 
-p span {
+#span {
     color: #ffd000;
-
 }
 
 .Cuerpo {
     margin-top: 70px;
-
-
 }
 
 button {
